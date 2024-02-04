@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Tracker</title>
+    <link rel="shortcut icon" href="Favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Honk&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <img id="Home_bg_Image" src="Images/Home_bg_Image.jpg" alt="">
+    <section id="contentSection">
+        <header class="contentSection" id="header">
+            <h1 id="h1">Expense Tracker</h1>
+        </header>
+        <main class="contentSection" id="main"> 
+            <div class="mainItems" id="mainItem1">
+                <div class="mainItem1" id="mainItem1Content1">
+                    <p class="mainItem1Content1Para" id="mainItem1Para1">Balance: $</p>
+                    <p class="mainItem1Content1Para" id="mainItem1Para2">0</p>
+                </div>
+                <div class="mainItem1" id="mainItem1Content2">
+                    <div class="mainItem1Content2Items" id="mainItem1Content2Item1">
+                        <p class="mainItem1Content2Item1Para" id="mainItem1Content2Item1Para1">Total Income:</p>
+                        <p class="mainItem1Content2Item1Para" id="mainItem1Content2Item1Para2">0</p>
+                    </div>
+                    <div class="mainItem1Content2Items" id="mainItem1Content2Item2">
+                        <p class="mainItem1Content2Item2Para" id="mainItem1Content2Item2Para1">Total Expense:</p>
+                        <p class="mainItem1Content2Item2Para" id="mainItem1Content2Item2Para2">0</p>
+                    </div>
+                </div>
+            </div>
+            <div class="mainItems" id="mainItem2">
+                <div class="mainItem2" id="tableSide">
+                    <p id="tableSidePara">Expenses</p>
+                    <table id="table">
+                        <thead id="thead">
+                            <th>S. No.</th>
+                            <th>Name</th>
+                            <th>Amount ($)</th>
+                            <th>Type</th>
+                            <th>Delete</th>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td id="tr11"></td>
+                                <td id="tr12"></td>
+                                <td id="tr13"></td>
+                                <td id="tr14"><img id="tr141" src="" alt="" height="15"></td>
+                                <td id="tr15"><img id="tr151" src="" alt="" height="15"></td>
+                            </tr>
+                            <tr>
+                                <td id="tr21"></td>
+                                <td id="tr22"></td>
+                                <td id="tr23"></td>
+                                <td id="tr24"><img id="tr241" src="" alt="" height="15"></td>
+                                <td id="tr25"><img id="tr251" src="" alt="" height="15"></td>
+                            </tr>
+                            <tr>
+                                <td id="tr31"></td>
+                                <td id="tr32"></td>
+                                <td id="tr33"></td>
+                                <td id="tr34"><img id="tr341" src="" alt="" height="15"></td>
+                                <td id="tr35"><img id="tr351" src="" alt="" height="15"></td>
+                            </tr>
+                            <tr>
+                                <td id="tr41"></td>
+                                <td id="tr42"></td>
+                                <td id="tr43"></td>
+                                <td id="tr44"><img id="tr441" src="" alt="" height="15"></td>
+                                <td id="tr45"><img id="tr451" src="" alt="" height="15"></td>
+                            </tr>
+                            <tr>
+                                <td id="tr51"></td>
+                                <td id="tr52"></td>
+                                <td id="tr53"></td>
+                                <td id="tr54"><img id="tr541" src="" alt="" height="15"></td>
+                                <td id="tr55"><img id="tr551" src="" alt="" height="15"></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+                <div class="mainItem2" id="formSide">   
+                    <p id="formSidePara">Add New</p>
+                    <form action="" id="form">
+                        <div class="">
+                            <label for="entryType">Entry type:</label>
+                            <select name="" id="entryType" required>
+                            <option value="" selected>-Please Select-</option>
+                            <option value="1">Income</option>
+                            <option value="2">Expense</option>
+                        </select>
+                        </div>
+                        <div>
+                            <label for="name">Name:</label>
+                            <input type="text" name="" id="name" required>
+                        </div>
+                        <div>
+                            <label for="amount">Amount:</label>
+                            <input type="number" name="" id="amount" min="1" required>
+                        </div>
+                        <div id="button">
+                            <input type="button" id="btn" value="Add Expense">
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </main>
+        <footer class="contentSection" id="footer">
+            <p id="para">Copyright &#169; 2024 Designed and Developed by Jatin Pal. You can follow on - <a href="https://www.linkedin.com/in/jatinpal0112" class="fa fa-linkedin" id="a"></a></p>
+        </footer>
+    </section>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <script src="index.js"></script>
+</body>
+</html>

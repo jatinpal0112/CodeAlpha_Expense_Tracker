@@ -1,0 +1,133 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+#Home_bg_Image{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+}
+#contentSection{
+    position: relative;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+#h1{
+    text-align: center;
+    font-family: "Honk", system-ui;
+    font-size: 5rem;
+    @media (max-width:992px) {
+        font-size: 4rem;
+    }
+    @media (max-width:768px) {
+        font-size: 3rem;
+    }
+}
+#main{
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    justify-content: center;
+    align-items: center;
+}
+.mainItems{
+    background-color: white;
+    border-radius: 3px;
+    border: 1px solid black;
+    box-shadow: rgb(0, 0, 0) 0px 5px 15px;
+}
+#mainItem1{
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    padding: 2.5rem 4rem 2.5rem 4rem;
+}
+.mainItem1{
+    display: flex;
+    flex-direction: row;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+#mainItem1Content1{
+    display: flex;
+    flex-direction: row;
+    gap: 0.5rem;
+    font-weight: bold;
+    font-size: 1.9rem;
+}
+#mainItem1Content2{
+    display: flex;
+    flex-direction: row;
+    gap: 2rem;
+    font-weight: bold;
+}
+.mainItem1Content2Items{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+#mainItem1Content2Item1Para2{
+    font-size: 1.25rem;
+    color: rgba(0, 128, 0, 0.763);
+}
+#mainItem1Content2Item2Para2{
+    font-size: 1.25rem;
+    color: red;
+}
+#mainItem2{
+    display: flex;
+    flex-direction: row;
+    padding: 2.5rem 1rem 2.5rem 1rem;
+    gap: 2rem;
+    @media (max-width:800px) {
+        flex-direction: column-reverse;
+    }
+}
+.mainItem2{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 1.5rem;
+}
+#tableSidePara{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+#formSidePara{
+    font-weight: bold;
+    font-size: 1.25rem;
+}
+#form{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.75rem;
+    font-weight: bold;
+    font-size: 1.05rem;
+    @media (max-width:800px) {
+        align-items: center;
+    }
+}
+#table{
+    font-size: 1.05rem;
+}
+th{
+    background-color: rgba(128, 128, 128, 0.735);
+    padding: 0.5rem 1rem 0.5rem 1rem;
+}
+td{
+    padding: 0.5rem 1rem 0.5rem 1rem;    
+}
+#footer{
+    color: white;
+    text-align: center;
+    padding: 0.5rem;
+}
+#a{
+    text-decoration: none;
+    color: white;
+}
